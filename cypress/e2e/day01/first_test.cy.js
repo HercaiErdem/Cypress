@@ -8,7 +8,12 @@ describe('My First Test', () => {
 
         cy.visit("https://www.google.com") // test edilecek url git dedik.
        // visit("URL")
-         
+
+       cy.url().should("include", "google")
+       // should assert islemi icin kullanılıyor
+       // .should("include", "google") : url google icerir mi dogrula demek.
+        
+    
     });
     
 });
