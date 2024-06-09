@@ -1,0 +1,22 @@
+{
+  "name": "cypress2024",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HercaiErdem/Cypress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HercaiErdem/Cypress/issues"
+  },
+  "homepage": "https://github.com/HercaiErdem/Cypress#readme",
+  "devDependencies": {
+    "cypress": "^13.11.0"
+  }
+}
