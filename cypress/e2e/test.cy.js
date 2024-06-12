@@ -1,4 +1,4 @@
-/// <references types ="cypress"/>
+/// <references types ="cypress" />
 
 describe('', () => {
 

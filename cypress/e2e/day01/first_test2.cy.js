@@ -1,4 +1,4 @@
-/// <references types ="cypress"/>
+/// <references types ="cypress" />
 
 describe('My First Test', function() { // narrow funtion yerine uzun hali de kullanılabilir, bu test class'ında bunu gördük.
     
