@@ -13,7 +13,15 @@ describe('My First Test', () => {
        // should assert islemi icin kullanılıyor
        // .should("include", "google") : url google icerir mi dogrula demek.
         
-    
     });
-    
+
+     it('Title Test', () => {
+        cy.visit("https://www.google.com")
+        cy.title().should("include", "Google")
+
+        cy.title().should("include", "Goo") // include oldugu için title!ın hepsini yazmamıza gerek yok.
+        cy.title().should("include", "le")
+        cy.title().should("eq", "Google") //eq kullanıldıgı için title ile yazılan başlığın bire bir aynı olması gerekmektedir.
+        
+     });
 });
