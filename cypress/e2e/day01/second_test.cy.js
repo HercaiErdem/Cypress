@@ -32,9 +32,19 @@ context('My Second Test', () => {
         
     });
 
-    it('', () => {
+    it('TimeOut', () => {
+        cy.get("textarea[class='gLFyf']", {timeout: 1000}).type("Cypress.io{enter}")
+
         
     });
 
-    
+    it.only('Click Test', () => {
+
+        // it.only = sadece bu testi calistir demek.
+
+        cy.get('.gb_d').click()
+        
+    });
+
+    // it.skip = testi yapmadan gecer.
 });
